@@ -1,0 +1,19 @@
+<link href="{{ url_for('static', filename='css/navbar.css') }}" rel="stylesheet">
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand mx-4" href="#">
+      <img src="{{ url_for('static', filename='elderlink.jpg')}}" class="navbar-logo">
+      <a class="nav-link fw-bold nav-custom fw-bold fs-3" href="/">ElderLink</a>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+      <div class="navbar-nav mx-4 fw-bold">
+        <a class="nav-link px-3" href="#">Home</a>
+        <a class="nav-link px-3" href="#">Services</a>
+        <a class="nav-link px-3" href="#">About Us</a>
+        <a class="nav-link px-3 mx-1 btn rounded" href="#" id="button">Registration</a>
+    </div>
+  </div>
+</nav>
